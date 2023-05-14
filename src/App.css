@@ -1,0 +1,151 @@
+.App {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.theTicketForm {
+  display: inline-block;
+  background-color: skyblue;
+  row-gap: 10px;
+  margin: 10px;
+}
+
+.theTables {
+  display: inline-block;
+  background-color: lightsalmon;
+  margin: 10px;
+}
+
+.theTransfer {
+  display: inline-block;
+  background-color: #89e0a0;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 400px;
+}
+
+select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+}
+
+table {
+  table-layout: fixed;
+  width: 800px;
+  word-wrap: br;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid black;
+}
+th.title {
+  width: 10%;
+}
+
+th.issue {
+  width: 25%;
+}
+
+th.description {
+  width: 25%;
+}
+
+th.difficulty {
+  width: 10%;
+}
+
+th.deviceType {
+  width: 10%;
+}
+
+th.ticketId {
+  width: 10%;
+}
+
+th.Button {
+  width: 10%;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3473cd;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.ticket-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-resolved {
+  color: green;
+}
+
+.ticket-unresolved {
+  color: red;
+}
+
+.ticket-table {
+  background-color: lightgrey;
+}
+
+.resolve-button {
+  background-color: green;
+  color: white;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
